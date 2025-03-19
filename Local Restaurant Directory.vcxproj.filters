@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="alcoholic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="american.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="banhmi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="beverage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbletea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="burgerJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="burgerK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="burgerUSA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="burrito.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="central.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cocktail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coffee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cookies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dessert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fastfood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="food.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icecream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="international.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="italian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="japanese.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kbbq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="korean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mexican.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="milkshake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="milkshakeshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nonalcoholic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pastries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pho.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pizza.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ramen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="restaurantlistbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sushi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vietnamese.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="restaurant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pasta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alcoholic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="american.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="banhmi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="beverage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bubbletea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="burgerJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="burgerK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="burgerUSA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="burrito.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="central.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocktail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coffee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cookies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dessert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fastfood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="food.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icecream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="international.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="italian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kbbq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="korean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mexican.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="milkshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="milkshakeshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nonalcoholic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pastries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pho.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pizza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ramen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="restaurantlistbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sushi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thai.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vietnamese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="restaurant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pasta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Local Restaurant Directory.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\restaurant.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\ruby.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\BANHMI.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\BBLD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\BRANKS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\BRUNO.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\charm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\chicken.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\CRUMBL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\CUBE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\GCB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\ISAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\KATSU.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\KIMCHI.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\lamp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\MAZA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\MUKJA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\NBD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\PHO.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\phomi.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\PKM.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\PSE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\QPB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\quick.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\RFWP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\ROCK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\SBPD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\SCOOP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\SEOUL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\slevel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\stack.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\TACOB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Unicorn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\ZEN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\azteca.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

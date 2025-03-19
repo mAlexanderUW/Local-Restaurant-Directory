@@ -1,0 +1,14 @@
+11
+Alcoholic Cocktail Azteca https://www.aztecamex.com/the-menu/bar-menu/ AZTECA_BITMAP Caribbean_Coffee
+Alcoholic Cocktail Mukja_Korean_Barbeque https://www.mukjakoreanbbq.com/MukjaKoreanBBQmenu/?page=5 MUKJA_BITMAP Seoul_Sister
+Alcoholic Cocktail Stack_571 https://www.stack571.com/laketapps STACK_BITMAP Gardeners_Gimlet
+Alcoholic Cocktail The_Rock_Wood_Fired_Pizza https://www.therockwfp.com/menu/#beverages RFWP_BITMAP Lavender_Haze_Martini
+Alcoholic Milkshake Stack_571 https://www.stack571.com/laketapps STACK_BITMAP Strawberry_Shake_With_A_Shot
+Non-Alcoholic Bubble_Tea S_Level_Tea https://slevelteaus.com/our-menu/ SLEVEL_BITMAP Strawberry_Milk_Tea
+Non-Alcoholic Coffee Lamppost_Coffee https://lamppost-coffee-roasters.square.site/?limit=60&page=1&sort_by=name&sort_order=asc LAMP_BITMAP Merry_Mint_Mocha
+Non-Alcoholic Coffee PHO&MI https://phomi.menu11.com/puyallup/order PHOMI_BITMAP Vietnamese_Iced_Milk_Coffee
+Non-Alcoholic Coffee Stackbucks https://www.starbucks.com/ SBPD_BITMAP Pink_Drink
+Non-Alcoholic Milkshake Quick_Pick https://www.pick-quick.com/fife/ QUICK_BITMAP Oreo_Cookie
+Alcoholic Cocktail Toscanos https://toscanospuyallup.com/cocktails/ BBLD_BITMAP Blueberry_Basil_Lemon_Drop
+
+

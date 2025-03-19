@@ -1,0 +1,26 @@
+25
+American Burger Pick_Quick https://www.pick-quick.com/fife/ QPB_BITMAP Deluxe_Burger
+American Burger Red_Robin https://www.redrobin.com/ GCB_BITMAP Gourmet_Cheese_Burger
+Desserts Cookies Crumbl https://crumblcookies.com/ CRUMBL_BITMAP S'Mores_Cookie
+Desserts Ice_Cream The_Scoop https://www.thescooponmainst.com/ SCOOP_BITMAP Mint_Choc_Chip
+Desserts Pastries Wanna_Cupcake? //www.wannacupcake.com/ UNICORN_BITMAP Unicorn_Cake
+Japanese Burger Katsu_Burger https://www.katsuburger.com/menu-1 KATSU_BITMAP Tokyo_Classic
+Japanese Ramen My_lil_Cube https://mylilcuberamen.shop/menu CUBE_BITMAP Shoyu_Chashu_Ramen
+Japanese Ramen Zen_Ramen_&_Sushi_Burrito https://www.zen3tacoma.com/ KIMCHI_BITMAP Kimchi_Ramen
+Japanese Sushi Sushi_Konami https://www.konamisushi.com/menus RUBY_BITMAP Ruby
+Japanese Sushi Zen_Ramen_&_Sushi_Burrito https://www.zen3tacoma.com/ ZEN_BITMAP Washington_Sushi_Burrito
+International Fusion Bruno's https://www.brunoseuropeanrestaurant.com/menu BRUNO_BITMAP Schnitzel_Sandwich
+Italian Pizza Fat_Zach's https://fatzachspizza.com/menu/ NBD_BITMAP #NBD
+Italian Pizza The_Rock https://www.therockwfp.com/menu/ ROCK_BITMAP Buffalo_Chicken_Wrap
+Korean Burger Burger_Seoul https://www.clover.com/online-ordering/burger-seoul-tacoma SEOUL_BITMAP Super_Bulgogi
+Korean BBQ Mukja https://www.mukjakoreanbbq.com/MukjaKoreanBBQmenu/?page=1 MUKJA_BITMAP Mukja_Mix_Combo_B
+Mexican Burrito Mazatlan https://themazatlanmex.com/menu MAZA_BITMAP Carne_Asada_Burrito
+Mexican Fast_Food Taco_Bell https://www.tacobell.com/food TACOB_BITMAP Crunchwrap_Supreme
+Thai Isan Ban_Som_Isaan_Thai https://bansomtum.menufy.com/#/ ISAN_BITMAP Crying_Tiger
+Vietnamese Pho Than_Brothers https://thanbrothers.com/#menu PHO_BITMAP Tai_Nam
+Vietnamese Banh_Mi Pho&Mi https://phomi.menu11.com/puyallup/order BANHMI_BITMAP Grilled_Pork_Banh_Mi
+American BBQ Branks https://www.branksbbq.com/menus/ BRANKS_BITMAP Scout_BBQ_Sandwich
+Thai Central_Style Thain_Thai https://www.thianthai.com/online-ordering PSE_BITMAP Pad_See_Ew
+Thai Isan Appathaizing https://www.appethaizing.net/ PKM_BITMAP Pad_Kee_Mao
+Thai Central_Style Charm_Thai http://www.charmthaionpuyallup.com/menu-gallery.html CHARM_BITMAP Egg_Drop_Soup
+Italian Pasta Toscanos https://toscanospuyallup.com/dinner/ CHICKEN_BITMAP Chicken_Linguine

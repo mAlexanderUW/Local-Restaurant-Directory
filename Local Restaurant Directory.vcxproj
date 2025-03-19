@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6d77c2b3-884d-43a4-a989-e624b093a62d}</ProjectGuid>
+    <RootNamespace>LocalRestaurantDirectory</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wxWidgets\wxwidgets.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wxWidgets\wxwidgets.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wxWidgets\wxwidgets.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wxWidgets\wxwidgets.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="alcoholic.cpp" />
+    <ClCompile Include="american.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="banhmi.cpp" />
+    <ClCompile Include="bbq.cpp" />
+    <ClCompile Include="beverage.cpp" />
+    <ClCompile Include="bubbletea.cpp" />
+    <ClCompile Include="burgerJ.cpp" />
+    <ClCompile Include="burgerK.cpp" />
+    <ClCompile Include="burgerUSA.cpp" />
+    <ClCompile Include="burrito.cpp" />
+    <ClCompile Include="central.cpp" />
+    <ClCompile Include="cocktail.cpp" />
+    <ClCompile Include="coffee.cpp" />
+    <ClCompile Include="cookies.cpp" />
+    <ClCompile Include="dessert.cpp" />
+    <ClCompile Include="fastfood.cpp" />
+    <ClCompile Include="fileHandler.cpp" />
+    <ClCompile Include="food.cpp" />
+    <ClCompile Include="fusion.cpp" />
+    <ClCompile Include="icecream.cpp" />
+    <ClCompile Include="international.cpp" />
+    <ClCompile Include="isan.cpp" />
+    <ClCompile Include="italian.cpp" />
+    <ClCompile Include="japanese.cpp" />
+    <ClCompile Include="kbbq.cpp" />
+    <ClCompile Include="korean.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="mexican.cpp" />
+    <ClCompile Include="milkshake.cpp" />
+    <ClCompile Include="milkshakeshot.cpp" />
+    <ClCompile Include="nonalcoholic.cpp" />
+    <ClCompile Include="pasta.cpp" />
+    <ClCompile Include="pastries.cpp" />
+    <ClCompile Include="pho.cpp" />
+    <ClCompile Include="pizza.cpp" />
+    <ClCompile Include="ramen.cpp" />
+    <ClCompile Include="restaurant.cpp" />
+    <ClCompile Include="restaurantlistbuilder.cpp" />
+    <ClCompile Include="sushi.cpp" />
+    <ClCompile Include="thai.cpp" />
+    <ClCompile Include="vietnamese.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alcoholic.h" />
+    <ClInclude Include="american.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="banhmi.h" />
+    <ClInclude Include="bbq.h" />
+    <ClInclude Include="beverage.h" />
+    <ClInclude Include="bubbletea.h" />
+    <ClInclude Include="burgerJ.h" />
+    <ClInclude Include="burgerK.h" />
+    <ClInclude Include="burgerUSA.h" />
+    <ClInclude Include="burrito.h" />
+    <ClInclude Include="central.h" />
+    <ClInclude Include="cocktail.h" />
+    <ClInclude Include="coffee.h" />
+    <ClInclude Include="cookies.h" />
+    <ClInclude Include="dessert.h" />
+    <ClInclude Include="fastfood.h" />
+    <ClInclude Include="fileHandler.h" />
+    <ClInclude Include="food.h" />
+    <ClInclude Include="fusion.h" />
+    <ClInclude Include="icecream.h" />
+    <ClInclude Include="international.h" />
+    <ClInclude Include="isan.h" />
+    <ClInclude Include="italian.h" />
+    <ClInclude Include="japanese.h" />
+    <ClInclude Include="kbbq.h" />
+    <ClInclude Include="korean.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="mexican.h" />
+    <ClInclude Include="milkshake.h" />
+    <ClInclude Include="milkshakeshot.h" />
+    <ClInclude Include="nonalcoholic.h" />
+    <ClInclude Include="pasta.h" />
+    <ClInclude Include="pastries.h" />
+    <ClInclude Include="pho.h" />
+    <ClInclude Include="pizza.h" />
+    <ClInclude Include="ramen.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="restaurant.h" />
+    <ClInclude Include="restaurantlistbuilder.h" />
+    <ClInclude Include="sushi.h" />
+    <ClInclude Include="thai.h" />
+    <ClInclude Include="vietnamese.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Local Restaurant Directory.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\azteca.bmp" />
+    <Image Include="resources\BANHMI.bmp" />
+    <Image Include="resources\BBLD.bmp" />
+    <Image Include="resources\BRANKS.bmp" />
+    <Image Include="resources\BRUNO.bmp" />
+    <Image Include="resources\charm.bmp" />
+    <Image Include="resources\chicken.bmp" />
+    <Image Include="resources\CRUMBL.bmp" />
+    <Image Include="resources\CUBE.bmp" />
+    <Image Include="resources\GCB.bmp" />
+    <Image Include="resources\ISAN.bmp" />
+    <Image Include="resources\KATSU.bmp" />
+    <Image Include="resources\KIMCHI.bmp" />
+    <Image Include="resources\lamp.bmp" />
+    <Image Include="resources\MAZA.bmp" />
+    <Image Include="resources\menu.bmp" />
+    <Image Include="resources\MUKJA.bmp" />
+    <Image Include="resources\NBD.bmp" />
+    <Image Include="resources\PHO.bmp" />
+    <Image Include="resources\phomi.bmp" />
+    <Image Include="resources\PKM.bmp" />
+    <Image Include="resources\PSE.bmp" />
+    <Image Include="resources\QPB.bmp" />
+    <Image Include="resources\quick.bmp" />
+    <Image Include="resources\restaurant.ico" />
+    <Image Include="resources\RFWP.bmp" />
+    <Image Include="resources\ROCK.bmp" />
+    <Image Include="resources\ruby.bmp" />
+    <Image Include="resources\SBPD.bmp" />
+    <Image Include="resources\SCOOP.bmp" />
+    <Image Include="resources\SEOUL.bmp" />
+    <Image Include="resources\slevel.bmp" />
+    <Image Include="resources\stack.bmp" />
+    <Image Include="resources\TACOB.bmp" />
+    <Image Include="resources\Unicorn.bmp" />
+    <Image Include="resources\ZEN.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
